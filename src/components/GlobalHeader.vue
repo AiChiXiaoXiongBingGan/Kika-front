@@ -86,8 +86,30 @@ const doMenuClick = (key: string) => {
 }
 
 .logo {
-  max-width: 5%;
-  height: auto;
-  display: block;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.titleMenuItem {
+  padding: 0;
+  margin-left: 10px;
+}
+
+.menuItem {
+  margin-left: 20px;
+}
+
+.menuItem:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.userInfo {
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.loginButton {
+  text-align: right;
 }
 </style>
